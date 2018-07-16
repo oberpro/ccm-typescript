@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/",
+        "sourceMap": false,
+        "module": "esnext",
+        "target": "es6",
+        "allowJs": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "compileOnSave": false
+}
